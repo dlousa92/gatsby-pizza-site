@@ -25,6 +25,7 @@ const NavStyles = styled.nav`
     --rotate: -2deg;
     transform: rotate(var(--rotate));
     order: 1;
+    margin-top: -6rem;
 
     &:nth-child(1) {
       --rotate: 1deg;
@@ -50,6 +51,10 @@ const NavStyles = styled.nav`
     &:hover {
       color: var(--red);
     }
+
+    // &[aria-current="page"] {
+    //   color: var(--red);
+    // }
   }
 `;
 
